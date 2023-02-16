@@ -3,22 +3,20 @@ body {
 	background-image: url("CrabNebula_Hubble_3864.jpeg");
 	background-color : beige; 
 }*/
-html,
-body {
-  margin: 0;
-  padding: 0;
+style {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
- 
-.background {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
+#particles-js {
+	width: 100;
+	height: 100vh;
+	background-image: url(pexels-eberhard-grossgasteiger-1366919.jpg);
 }
 
-window.onload = function() {
-  Particles.init({
-    selector: '.background'
-  });
-};
+h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
